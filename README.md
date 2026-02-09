@@ -1,2 +1,36 @@
-# SA-MP-unlock-SAA2
-It's a patch for SA-MP that enables modifications normally blocked by samp.saa2.
+# SA-MP Unlock SAA2
+
+**SA-MP Unlock SAA2** is a small patch for **SA-MP** that allows modifications normally blocked by `samp.saa2`. It works by patching the game's memory to unlock restricted features that would otherwise be unavailable.
+
+> ⚠️ **Note:** Currently, it only supports **SA-MP 0.3.7-R3**
+
+## Requirements
+
+* Windows (x86)
+* SA-MP 0.3.7-R3
+* Visual Studio 2022
+* CMake 3.20 or newer
+* C++ compiler that supports C++23
+
+## Building
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/mrxenginner/SA-MP-unlock-SAA2.git
+cd SA-MP-unlock-SAA2
+```
+
+2. Configure the project for **Win32** using CMake:
+
+```cmd
+cmake -B build -S . -A "Win32"
+```
+
+3. Build the ASI in Release mode:
+
+```cmd
+cmake --build build --config Release
+```
+
+* The compiled ASI will be located at `build\Release\unlock-saa2.asi`.
