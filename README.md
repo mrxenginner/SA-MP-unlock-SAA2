@@ -33,3 +33,10 @@ cmake --build build --config Release
 ```
 
 * The compiled ASI will be located at `build\Release\unlock-saa2.asi`.
+
+## Usage
+
+1. Place the compiled ASI in the **original SA-MP game folder** (where `samp.exe` and `samp.dll` are located).
+2. The patch will automatically load and apply the modifications when the game starts.
+3. Any files or settings it uses will be loaded from the **game's original folder**, ensuring everything works with your existing installation.
+4. When the game closes, the original behavior is restored automatically.
