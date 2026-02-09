@@ -6,7 +6,6 @@
 
 ## Requirements
 
-* Windows (x86)
 * SA-MP 0.3.7-R3
 * Visual Studio 2022
 * CMake 3.20 or newer
